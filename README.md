@@ -11,5 +11,7 @@ Build locally, then export:
 Load on remote server:
 `podman load < mixomics.tar`
 
+Copy to cluster with `scp`.
+
 ## Run:
 podman or docker, e.g. `podman run -it --rm --name mixOmics -v /home/$USER/path_to_R_scripts/:/app/ --entrypoint Rscript mixomics /app/my_script.R`
