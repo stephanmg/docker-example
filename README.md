@@ -14,7 +14,7 @@ Load on remote server:
 Copy to cluster with `scp`.
 
 ## Run:
-podman or docker, e.g. `podman run -it --rm --name mixOmics -v /home/$USER/path_to_R_scripts/:/app/ --entrypoint Rscript mixomics /app/my_script.R
+podman or docker, e.g. `podman run -it --rm --name mixOmics -v /home/$USER/path_to_R_scripts/:/app/ --entrypoint Rscript mixomics /app/my_script.R`
 
 ## Submit to SLURM:
 Wrap code above into Bash script and submit with `sbatch my_script.sh`.
